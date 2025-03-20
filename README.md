@@ -1,4 +1,9 @@
 # Code_for_RPG_character_library_API
 
-### info
+## info
 This is my API that manage data on the different characters I have created for different RPG sessions
+
+## list of endpoints
+
+- https://rpg-character-library-api.onrender.com/characters
+    - gets a list of all characters

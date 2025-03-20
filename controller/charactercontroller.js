@@ -1,6 +1,7 @@
 const APIcharacter = require("../models/apicharacters.js");
 const APIgallery = require("../models/gallery.js")
 const APIsystems = require("../models/systems.js")
+const APIdownloads = require("../models/downloads.js")
 
 module.exports = {
     getCharacters: async function (req, res, next) {

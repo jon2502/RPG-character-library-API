@@ -5,7 +5,6 @@ var logger = require('morgan');
 const mongoose = require('mongoose');
 const helmet = require('helmet')
 const cors = require('cors');
-require('dotenv').config()
 
 var indexRouter = require('./routes/index');
 

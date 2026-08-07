@@ -1,5 +1,16 @@
 const mongoose = require("mongoose");
 
+const textSchema = new mongoose.Schema({
+    tag:{
+        type: String,
+        required: true
+    },
+    text:{
+        type: String,
+        required: true
+    }
+})
+
 const schema = new mongoose.Schema({
     name: {
         type:String,
@@ -38,8 +49,8 @@ const schema = new mongoose.Schema({
         type:String,
         required: true
     },
-    text:{
-        type:[String],
+    text_content:{
+        type:[textSchema],
         required: true
     }
 })
